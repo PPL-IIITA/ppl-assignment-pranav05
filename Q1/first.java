@@ -13,8 +13,8 @@ public class first {
         Random random=new Random();
         int bo,gi;
         /** Generating Random number of bOys and Girls*/
-        bo=random.nextInt(10);
-        gi=random.nextInt(10);
+        bo=random.nextInt(100);
+        gi=random.nextInt(100);
         /** Getting values for attributes of Boys and Girls*/
         if(bo>gi){
             Rm_boy rb=new Rm_boy(bo);
