@@ -13,8 +13,8 @@ public class first {
         Random random=new Random();
         int bo,gi;
         /** Generating Random number of bOys and Girls*/
-        bo=random.nextInt(100);
-        gi=random.nextInt(100);
+        bo=random.nextInt(10);
+        gi=random.nextInt(10);
         /** Getting values for attributes of Boys and Girls*/
         if(bo>gi){
             Rm_boy rb=new Rm_boy(bo);
@@ -30,7 +30,7 @@ public class first {
         try {
             
             cb=0;
-            File fl=new File("csv1.txt");
+            File fl=new File("boy.csv");
             BufferedReader br= new BufferedReader(new FileReader(fl));
             String str;
             str=br.readLine();
@@ -60,7 +60,7 @@ public class first {
         try {
             
             cg=0;
-            File fl=new File("csv2.txt");
+            File fl=new File("girl.csv");
             BufferedReader br= new BufferedReader(new FileReader(fl));
             String str;
             str=br.readLine();
@@ -97,7 +97,7 @@ public class first {
         /**Saving the result of commitments in the log file along with the time stamp*/
         try{
             //File fl1=new File("log.txt");
-            BufferedWriter bw=new BufferedWriter(new FileWriter("log.txt"));
+            BufferedWriter bw=new BufferedWriter(new FileWriter("log.csv"));
             String str;
             
            for(j=0;j<cg;j++){

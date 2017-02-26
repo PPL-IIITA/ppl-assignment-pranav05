@@ -9,7 +9,7 @@ public class Rm_girl {
     public Rm_girl(int gi) {
         int j, k;
         try {
-            FileWriter fileOut = new FileWriter("csv2.txt");/** Emptying the file*/
+            FileWriter fileOut = new FileWriter("girl.csv");/** Emptying the file*/
             fileOut.write("");
             fileOut.close();
         } catch (Exception e) {
@@ -37,7 +37,7 @@ public class Rm_girl {
             // System.out.println(output);
             /** Saving the data generated in the csv file for Girls*/
             try {
-                BufferedWriter bw = new BufferedWriter(new FileWriter("csv2.txt", true));
+                BufferedWriter bw = new BufferedWriter(new FileWriter("girl.csv", true));
                 bw.write(output + "\r\n");
                 bw.flush();
             } catch (Exception e) {
