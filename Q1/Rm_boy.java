@@ -9,7 +9,7 @@ public class Rm_boy {
     public Rm_boy(int bo) {
         int j, k;
         try {
-            FileWriter fileOut = new FileWriter("H:\\documents backup\\NetBeansProjects\\Ppl_q1\\src\\csv1.txt");/** Emptying the file*/
+            FileWriter fileOut = new FileWriter("csv1.txt");/** Emptying the file*/
             fileOut.write("");
             fileOut.close();
         } catch (Exception e) {
@@ -41,7 +41,7 @@ public class Rm_boy {
             //System.out.println(output);
             /** Saving the data generated in the csv file for boys*/
             try {
-                BufferedWriter bw = new BufferedWriter(new FileWriter("H:\\documents backup\\NetBeansProjects\\Ppl_q1\\src\\csv1.txt", true));
+                BufferedWriter bw = new BufferedWriter(new FileWriter("csv1.txt", true));
                 bw.write(output + "\r\n");
                 bw.flush();
             } catch (Exception e) {
