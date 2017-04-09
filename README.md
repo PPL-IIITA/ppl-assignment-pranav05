@@ -18,6 +18,7 @@ JAVA 8 (jdk 1.8 Update 92) 64 bit
 If PATH environment variable already has the required PATH value,then<br />
 1.Open Command Prompt.<br />
 2.Make Q1 as your current directory.<br />
-3.Now,type 'javac first.java'.<br />
-4.After the compilation is complete type 'java first' to run the file.
+3.Now,type 'javac first.java' and for question 2 type 'javac second.java'.<br />
+4.After the compilation is complete type 'java first' to run the file for first question and type 'java second' for second question.<br />
+5.For Other questions,please refer to the 'Read Me.txt' within each question.<br />
 
