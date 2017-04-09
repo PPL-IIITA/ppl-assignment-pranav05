@@ -32,8 +32,8 @@ public class fourth {
         /**
          * Generating Random number of bOys and Girls
          */
-        bo = random.nextInt(10);
-        gi = random.nextInt(10);
+        bo = random.nextInt(100);
+        gi = random.nextInt(100);
         /**
          * Getting values for attributes of Boys and Girls
          */
@@ -187,7 +187,7 @@ public class fourth {
             System.out.println(e.getMessage());
         }
         String str = "";
-        int max, max_i = 0, k1 = random.nextInt(10);
+        int max, max_i = 0, k1 = random.nextInt(20);
         for (j = 0; j < k1 && j <cg1; j++) {
             max = 999999;
             for (i = 0; i < cg; i++) {
